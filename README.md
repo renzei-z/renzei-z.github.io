@@ -1,8 +1,8 @@
 # renzei.dev
 
-Version: 0.0.1
+version: `v0.0.4`
 
-This is just my little silly website!!
+this is just my little silly website!!
 
 ## changelog
 
