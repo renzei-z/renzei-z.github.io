@@ -16,3 +16,7 @@ This is just my little silly website!!
 
 - add a cool CRT effect courtesy of [this blog post](https://aleclownes.com/2017/02/01/crt-display.html).
 - add 'she/her' below my name.
+
+### v0.0.3
+
+- change the CRT effect to just be a chromatic abberation effect
