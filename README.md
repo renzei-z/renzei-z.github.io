@@ -22,4 +22,7 @@ This is just my little silly website!!
 - change the CRT effect to just be a chromatic abberation effect.
 
 ### v0.0.4
+
 - move CRT effect from CSS to JS.
+- add a `robots.txt` and `sitemap.xml`.
+- add a W.I.P. message on the art page.
