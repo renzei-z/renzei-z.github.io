@@ -14,4 +14,5 @@ This is just my little silly website!!
 
 ### v0.0.2
 
-- added a cool CRT effect courtesy of [this blog post](https://aleclownes.com/2017/02/01/crt-display.html).
+- add a cool CRT effect courtesy of [this blog post](https://aleclownes.com/2017/02/01/crt-display.html).
+- add 'she/her' below my name.
