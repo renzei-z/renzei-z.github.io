@@ -15,50 +15,64 @@
     <meta site="twitter:description" content="come see what silly things i am doing :>">
     <meta name="theme-color" content="#111111">
 
-    <link rel="stylesheet" href="style.css?v=0.0.4" />
-    <script type="text/javascript" src="script.min.js?v=0.0.4" defer></script>
+    <link rel="stylesheet" href="style.css?v=0.0.5" />
+    <script type="text/javascript" src="script.js?v=0.0.5" defer></script>
   </head>
   <body>
+
     <div class="profile">
       <img class="profile__img" src="static/pfp.png" />
       <h1>renzei <div class="profile__aka">a.k.a renzei_, renzei_z</div></h1>
       <p class="profile__pronouns">(she/her)</p>
     </div>
 
-    <section class="about-me">
-      <h2 class="section-title about-me__title">about me</h2>
-      <hr class="page-separator" />
+    <noscript>You do not have JavaScript enabled on this browser. The tabs below will not work.</noscript>
 
-      <p>
-      meowdy! welcome to my silly corner of the world wide web. i'm renzei - a british <span class="trans-underline">transgirl</span> programmer!
-      </p>
+    <ul class="tabs">
+      <li><a onclick="showTab('home')" href="#">home</a></li>
+      <li><a onclick="showTab('art')" href="#art">art</a></li>
+    </ul>
 
-      <p>
-      i also am an (aspiring) artist! i love drawing, making music, and writing~!
-      you can check out all kinds of my art <a href="/art.html" class="inline-link">here</a>.
-      </p>
+    <section class="tab-content" name="home">
+      <section class="about-me">
+        <h2 class="section-title about-me__title">about me</h2>
+        <hr class="page-separator" />
 
-      <p>
-      as for programming, i work primarily in c, c++, rust, and haskell.
-      i also have a tendency to start projects and never get close to finishing them. ;p
-      </p>
+        <p>
+        meowdy! welcome to my silly corner of the world wide web. i'm renzei - a british <span class="trans-underline">transgirl</span> programmer!
+        </p>
+
+        <p>
+        i also am an (aspiring) artist! i love drawing, making music, and writing~!
+        you can check out all kinds of my art <a href="/art.html" class="inline-link">here</a>.
+        </p>
+
+        <p>
+        as for programming, i work primarily in c, c++, rust, and haskell.
+        i also have a tendency to start projects and never get close to finishing them. ;p
+        </p>
+      </section>
+
+      <section class="links">
+        <h2 class="section-title links__title">links</h2>
+        <hr class="page-separator" />
+        <!-- Hehehehehehee get it like a linked list haha -->
+        <ul class="linked-list">
+          <li class="links__item">
+            <a href="https://twitter.com/renzei_z" style="--accent-col: 29,161,242">Twitter</a>
+          </li> 
+          <li class="links__item">
+            <a href="https://stats.fm/renzei" style="--accent-col: 30,215,96">stats.fm</a>
+          </li> 
+          <li class="links__item">
+            <a href="https://discord.com/users/1220384372755140731" style="--accent-col: 88,101,242">Discord</a>
+          </li> 
+        </ul>
+      </section>
     </section>
 
-    <section class="links">
-      <h2 class="section-title links__title">links</h2>
-      <hr class="page-separator" />
-      <!-- Hehehehehehee get it like a linked list haha -->
-      <ul class="linked-list">
-        <li class="links__item">
-          <a href="https://twitter.com/renzei_z" style="--accent-col: 29,161,242">Twitter</a>
-        </li> 
-        <li class="links__item">
-          <a href="https://stats.fm/renzei" style="--accent-col: 30,215,96">stats.fm</a>
-        </li> 
-        <li class="links__item">
-          <a href="https://discord.com/users/1220384372755140731" style="--accent-col: 88,101,242">Discord</a>
-        </li> 
-      </ul>
+    <section class="tab-content" name="art">
+      meow :3 this section is a work in progress!
     </section>
   </body>
 </html>

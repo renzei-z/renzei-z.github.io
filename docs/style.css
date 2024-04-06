@@ -32,6 +32,22 @@ body {
   margin-top: 0.2em;
 }
 
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  margin: 0 auto 12px;
+  padding: 0;
+  font-size: 1.5em;
+  color: rgb(100,255,100);
+}
+
+.tabs a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
 .about-me p {
   max-width: 70%;
   margin-inline: auto;
@@ -111,4 +127,12 @@ body {
   text-shadow: var(--chromatic-abberation) 0 1px rgba(0,30,255,var(--strength)),
     calc(-1 * var(--chromatic-abberation)) 0 1px rgba(255,0,80,var(--strength-2)),
     0 0 3px;
+}
+
+.tab-content {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }

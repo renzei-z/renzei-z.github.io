@@ -3,8 +3,4 @@
     <loc>https://renzei.dev/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://renzei.dev/art.html</loc>
-    <priority>0.8</priority>
-  </url>
 </urlset>

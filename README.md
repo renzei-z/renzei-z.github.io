@@ -26,3 +26,7 @@ this is just my little silly website!!
 - move CRT effect from CSS to JS.
 - add a `robots.txt` and `sitemap.xml`.
 - add a W.I.P. message on the art page.
+
+### v0.0.5
+
+- add a tab system.
