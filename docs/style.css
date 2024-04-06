@@ -8,6 +8,14 @@ body {
   padding: 3rem;
 }
 
+noscript {
+  color: red;
+  text-shadow: none !important;
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+
 .profile {
   margin-inline: auto;
   width: max-content;

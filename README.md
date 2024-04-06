@@ -30,3 +30,4 @@ this is just my little silly website!!
 ### v0.0.5
 
 - add a tab system.
+- make non-javascript page not look as bad.
