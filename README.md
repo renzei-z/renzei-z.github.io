@@ -1,6 +1,6 @@
 # renzei.dev
 
-version: `v0.0.4`
+version: `v0.0.5`
 
 this is just my little silly website!!
 
@@ -31,3 +31,4 @@ this is just my little silly website!!
 
 - add a tab system.
 - make non-javascript page not look as bad.
+- add a simple loading thingy.

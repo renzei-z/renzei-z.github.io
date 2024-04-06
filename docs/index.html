@@ -16,9 +16,18 @@
     <meta name="theme-color" content="#111111">
 
     <link rel="stylesheet" href="style.css?v=0.0.5" />
-    <script type="text/javascript" src="script.js?v=0.0.5" defer></script>
+    <script type="text/javascript" src="script.min.js?v=0.0.5" defer></script>
   </head>
   <body>
+    <div class="loader">
+    <!-- I could use <progress> here, but
+      why do that when I could do it myself >:3 -->
+      <p>
+        <span class="message">drinking monster...</span>
+        <span class="percentage">100&#37;</span>
+      </p>
+      <div class="progress-bar" style="--fullness: 0%;"></div>
+    </div>
 
     <div class="profile">
       <img class="profile__img" src="static/pfp.png" />

@@ -1,3 +1,26 @@
+// loader
+//
+// we load to 69%, then wait until the page
+// has actually loaded, then load all the way.
+
+const loader = document.getElementsByClassName("loader")[0];
+if (loader) {
+  const [messagePara, bar] = loader.children;
+  console.log(messagePara, bar);
+
+  const hideLoader = () => {
+    loader.classList.add("vanish");
+    setTimeout(() => loader.remove(), 750);
+  };
+
+  window.addEventListener('load', () => {
+    bar.style.setProperty("--fullness", "100%")
+    hideLoader(loader);
+  });
+} else {
+  console.error("couldn't find loader??");
+}
+
 const body = document.body;
 
 const chromaticAbberation = () => {
