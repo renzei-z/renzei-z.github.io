@@ -6,7 +6,6 @@
 const loader = document.getElementsByClassName("loader")[0];
 if (loader) {
   const [messagePara, bar] = loader.children;
-  console.log(messagePara, bar);
 
   const hideLoader = () => {
     loader.classList.add("vanish");
