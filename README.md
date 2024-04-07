@@ -32,3 +32,5 @@ this is just my little silly website!!
 - add a tab system.
 - make non-javascript page not look as bad.
 - add a simple loading thingy.
+- remove lingering console.log.
+- fix link to art tab in body text.
