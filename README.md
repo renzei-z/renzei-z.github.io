@@ -34,3 +34,4 @@ this is just my little silly website!!
 - add a simple loading thingy.
 - remove lingering console.log.
 - fix link to art tab in body text.
+- change pfp to new one designed by @defuntoke !!
